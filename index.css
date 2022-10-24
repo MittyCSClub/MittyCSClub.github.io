@@ -109,11 +109,11 @@ header > * {
     padding-block: 3rem;
 }
 
-.team > h2 {
+#team > h2 {
     margin-bottom: 5rem;
 }
 
-.team > * > h3 {
+#team > * > h3 {
     width: fit-content;
     margin-left: 5rem;
     text-decoration: double underline;

@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;1,300&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     /* background-color: #111410; */
     background-color: black;
@@ -41,6 +45,33 @@ img {
 
 
 
+nav {
+    display: flex;
+    flex-direction: row;
+    /* width: max-content; */
+    margin-right: 0px;
+    margin-left: auto;
+    justify-content: right;
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+nav > * {
+    flex-basis: 10%;
+    margin-inline: 1rem;
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat";
+}
+
+
+
+
+
 header {
     color: white;
     padding: 5rem;
@@ -67,7 +98,7 @@ header > * {
 
 
 
-.team {
+#team {
     background-color: lavender;
     padding-inline: 2rem;
     padding-block: 3rem;
@@ -114,7 +145,7 @@ header > * {
 
 
 
-.description {
+#description {
     background-color: midnightblue;
     color: lavender;
     padding-inline: 2rem;
@@ -197,7 +228,7 @@ header > * {
 
 
 
-.schedule {
+#schedule {
     background-color: beige;
     padding-inline: 5rem;
     padding-block: 3rem;

@@ -99,6 +99,18 @@ header > * {
     font-style: italic;
 }
 
+.enroll-button {
+    width: 15rem;
+    height: 5rem;
+    margin-inline: auto;
+    margin-left: 15%;
+    margin-top: 2rem;
+    background-color: white;
+    color: black;
+    border: black;
+    border-radius: 10% / 20%;
+}
+
 
 
 

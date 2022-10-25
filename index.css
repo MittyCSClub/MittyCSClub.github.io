@@ -99,16 +99,27 @@ header > * {
     font-style: italic;
 }
 
+.button-container {
+    text-align: center;
+}
+
 .enroll-button {
     width: 15rem;
     height: 5rem;
     margin-inline: auto;
-    margin-left: 15%;
+    /* margin-left: 15%; */
+    margin-inline: auto;
     margin-top: 2rem;
     background-color: white;
     color: black;
     border: black;
     border-radius: 10% / 30%;
+}
+
+.enroll-button > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -117,12 +128,12 @@ header > * {
 
 #team {
     background-color: lavender;
-    padding-inline: 2rem;
-    padding-block: 3rem;
+    padding-inline: 2%;
+    padding-block: 3%;
 }
 
 #team > h2 {
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
 }
 
 #team > p {
@@ -169,18 +180,19 @@ header > * {
 #description {
     background-color: midnightblue;
     color: lavender;
-    padding-inline: 2rem;
-    padding-block: 3rem;
+    padding-inline: 2%;
+    padding-block: 3%;
 }
 
 .description-title {
-    margin-bottom: 5rem;
+    /* margin-bottom: 4%; */
 }
 
 .description-flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .description-flex > * {
@@ -188,6 +200,7 @@ header > * {
     width: fit-content;
     /* padding-inline: 2rem; */
     /* margin-inline: 1rem; */
+    margin-inline: auto;
 }
 
 .description-flex > * > * > * > * > a {
@@ -210,12 +223,16 @@ header > * {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .workshops > * {
     flex-basis: 50%;
-    max-width: 50%;
+    max-width: 45%;
     padding-inline: 1rem;
+    /* text-align: left; */
+    margin-inline: auto;
 }
 
 .workshop-info {
@@ -230,12 +247,15 @@ header > * {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .guest-speakers > * {
     flex-basis: 50%;
-    max-width: 50%;
-    margin-inline: 1rem;
+    max-width: 45%;
+    padding-inline: 1rem;
+    margin-inline: auto;
 }
 
 .guest-info {
@@ -252,12 +272,13 @@ header > * {
 
 #schedule {
     background-color: beige;
-    padding-inline: 5rem;
-    padding-block: 3rem;
+    padding-inline: 5%;
+    padding-block: 3%;
 }
 
 .schedule-title {
     margin-bottom: 5rem;
+    /* margin-bottom: 4%; */
 }
 
 
